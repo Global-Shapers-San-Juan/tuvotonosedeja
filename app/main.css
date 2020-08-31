@@ -1,0 +1,51 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #e9283e;
+}
+/*--- navigation bar ---*/
+.navbar {
+  background:#e9283e;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.btn {
+  color: #000
+}
+
+.accordion {
+  background: #fff;
+}
+
+.card {
+  padding-top: 10px;
+  background: #e9283e;
+  border-width: 0px;
+}
+
+.card-header, .card-body  {
+  background: #fff;
+}
+
+.circular-photo {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  width: 60px;
+  height: 60px;
+}
