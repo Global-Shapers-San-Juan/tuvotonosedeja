@@ -110,3 +110,16 @@ a {
   margin: 8px;
   font-size: 12px;
 }
+
+/* ABOUT */
+.TVNSD {
+  text-align: justify;
+  padding-top: 40px;
+  color: #fff; 
+
+}
+.about {
+  text-align: justify;
+  padding-top: 40px;
+  color: #fff; 
+}
