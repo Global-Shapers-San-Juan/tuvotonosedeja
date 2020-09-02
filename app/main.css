@@ -4,6 +4,15 @@ body {
   margin: 0;
   background: #e9283e;
 }
+
+h1,h2,h3,h4,h6,p {
+  color: #fff;
+}
+
+a {
+  color: #000;
+}
+
 /*--- navigation bar ---*/
 .navbar {
   background:#e9283e;
@@ -48,4 +57,56 @@ body {
   border-bottom-left-radius: 50% 50%;
   width: 60px;
   height: 60px;
+}
+
+.circular-photo-header {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  width: 160px;
+  height: 160px;
+}
+
+.logo {
+  padding: 8px;
+  width: 240px !important; 
+}
+
+.list-group-item {
+  margin: 8px 0px;
+  border-radius: .25rem;
+}
+
+.candidate-name {
+  margin-top: 20px;
+}
+
+.list-group-item:first-child {
+  border-radius: .25rem;
+}
+
+.accordion-details {
+
+}
+
+.accordion-icon {
+  margin-right: 8px;
+}
+
+.icon-social {
+  width: 32px;
+  margin: 16px;
+  filter: brightness(2);
+}
+
+.arrow-32 {
+  font-size: 16px;
+  color: #fff;
+}
+
+.arrow-text {
+  display: inline-block;
+  margin: 8px;
+  font-size: 12px;
 }
