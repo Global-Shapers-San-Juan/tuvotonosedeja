@@ -1,0 +1,144 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #F0414E;
+}
+
+h1,h2,h3,h4,h6,p {
+  color: #fff;
+}
+
+a {
+  color: #000;
+  text-decoration: underline;
+  text-decoration-color: #007bff;
+}
+
+
+
+/*--- navigation bar ---*/
+.navbar {
+  background:#F0414E;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.btn {
+  color: #000
+}
+
+.accordion {
+  background: #fff;
+}
+
+.card {
+  padding-top: 10px;
+  background: #F0414E;
+  border-width: 0px;
+}
+
+.card-header, .card-body  {
+  background: #fff;
+}
+
+.circular-photo {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.circular-photo-header {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  width: 160px;
+  height: 160px;
+}
+
+.logo {
+  padding: 8px;
+  width: 240px !important; 
+}
+
+.list-group-item {
+  margin: 8px 0px;
+  border-radius: .25rem;
+}
+
+.candidate-name {
+  margin-top: 20px;
+}
+
+.list-group-item:first-child {
+  border-radius: .25rem;
+}
+
+.accordion-icon {
+  margin-right: 8px;
+}
+
+.icon-social {
+  width: 32px;
+  margin: 16px;
+  filter: brightness(2);
+}
+
+.arrow-32 {
+  font-size: 16px;
+  color: #fff;
+}
+
+.arrow-text {
+  display: inline-block;
+  margin: 8px;
+  font-size: 12px;
+}
+
+/* ABOUT */
+.TVNSD {
+  padding-top: 40px;
+  color: #fff; 
+
+}
+.about {
+  padding-top: 40px;
+  color: #fff; 
+}
+
+.candidates-title {
+  text-decoration: none;
+}
+
+.partido-title {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.arrow-nounderline {
+  text-decoration: none;
+}
+
+.card-body > ul > li > a {
+  color: #007bff;
+}
