@@ -11,6 +11,7 @@ h1,h2,h3,h4,h6,p {
 
 a {
   color: #000;
+  text-decoration-line: underline;
 }
 
 /*--- navigation bar ---*/
@@ -113,13 +114,11 @@ a {
 
 /* ABOUT */
 .TVNSD {
-  /* text-align: justify; */
   padding-top: 40px;
   color: #fff; 
 
 }
 .about {
-  /* text-align: justify; */
   padding-top: 40px;
   color: #fff; 
 }
