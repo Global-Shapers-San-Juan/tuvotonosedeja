@@ -43,5 +43,5 @@ Si encuentras alguna sugerencia parecida pero consideras que es lo suficientemen
 - Screenshot(s) / Sketches de ser necesario. 
 
 ## Personas Contacto
-- [Pedro Cruz](https://twitter.com/pmcruz8)
+- [Pedro Cruz](https://twitter.com/pedrocruzio)
 - [Xiomara Figueroa](https://twitter.com/_xiomara7)
