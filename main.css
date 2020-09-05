@@ -142,3 +142,7 @@ a {
 .card-body > ul > li > a {
   color: #007bff;
 }
+
+.social-icons {
+  max-height: 80px;
+}
