@@ -153,3 +153,8 @@ a {
   color: white;
   margin: auto;
 }
+
+.nav-footer {
+  max-width: 48px;
+  max-height: 48px;
+}
