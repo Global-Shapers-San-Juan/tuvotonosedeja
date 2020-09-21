@@ -59,8 +59,9 @@ a {
   border-top-right-radius: 50% 50%;
   border-bottom-right-radius: 50% 50%;
   border-bottom-left-radius: 50% 50%;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
 }
 
 .circular-photo-header {
@@ -145,4 +146,10 @@ a {
 
 .social-icons {
   max-height: 80px;
+}
+
+.partido-btn {
+  max-width: 300px;
+  color: white;
+  margin: auto;
 }
