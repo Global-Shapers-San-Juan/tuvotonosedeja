@@ -12,9 +12,9 @@ var data = [
   }
 ]
 
-var container = $('#candidates');
+var container = $('#candidatos');
 
-// $.getJSON('candidates.json', function (data) {
+// $.getJSON('candidatos.json', function (data) {
 //   $.each(data, function (i, doc) {
 
 //     // Let's create the DOM
