@@ -1,1 +1,1 @@
-<?php include_once("candidates.html"); ?>
+<?php include_once("candidatos.html"); ?>
