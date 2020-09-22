@@ -59,8 +59,9 @@ a {
   border-top-right-radius: 50% 50%;
   border-bottom-right-radius: 50% 50%;
   border-bottom-left-radius: 50% 50%;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
 }
 
 .circular-photo-header {
@@ -111,18 +112,18 @@ a {
   font-size: 12px;
 }
 
-/* ABOUT */
+/* sobre-nosotros */
 .TVNSD {
   padding-top: 40px;
   color: #fff; 
 
 }
-.about {
+.sobre-nosotros {
   padding-top: 40px;
   color: #fff; 
 }
 
-.candidates-title {
+.candidatos-title {
   text-decoration: none;
 }
 
@@ -145,4 +146,50 @@ a {
 
 .social-icons {
   max-height: 80px;
+}
+
+.partido-btn {
+  max-width: 320px;
+  color: white;
+  margin: auto;
+}
+
+.partido-btn.mvc {
+  max-width: 320px;
+  color: black;
+  margin: auto;
+}
+
+.nav-footer {
+  max-width: 48px;
+  max-height: 48px;
+}
+
+.remove-underline {
+  text-decoration: none;
+}
+
+.img-thumbnail.circular-photo-header.nav-footer {
+  padding: 0px;
+}
+
+.nowrap {
+  flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+}
+
+.small-badge-font {
+  font-size: 10px;
+}
+
+.footer-margin {
+  margin-bottom: 80px;
+}
+
+.profile-selected {
+  mix-blend-mode: overlay;
+}
+
+.btn {
+  -webkit-appearance: button-bevel !important;
 }
