@@ -189,3 +189,7 @@ a {
 .profile-selected {
   mix-blend-mode: overlay;
 }
+
+.btn {
+  -webkit-appearance: button-bevel !important;
+}
