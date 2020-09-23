@@ -161,8 +161,16 @@ a {
 }
 
 .nav-footer {
-  max-width: 48px;
-  max-height: 48px;
+  max-width: 40px;
+  max-height: 40px;
+}
+
+/* iPhone 5 */
+@media screen and (device-aspect-ratio: 40/71) {
+  .nav-footer {
+    max-width: 32px;
+    max-height: 32px;
+  }
 }
 
 .remove-underline {

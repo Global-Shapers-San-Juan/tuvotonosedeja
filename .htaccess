@@ -9,3 +9,14 @@ RewriteCond %{HTTPS} !=on
 
 # Redirect to https version
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Remove HTML extension
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+# Error Pages
+ErrorDocument 400 /candidates.html
+ErrorDocument 401 /candidates.html
+ErrorDocument 403 /candidates.html
+ErrorDocument 404 /candidates.html
+ErrorDocument 500 /candidates.html
