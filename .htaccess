@@ -16,8 +16,8 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
 
 # Error Pages
-ErrorDocument 400 /candidates.html
-ErrorDocument 401 /candidates.html
-ErrorDocument 403 /candidates.html
-ErrorDocument 404 /candidates.html
-ErrorDocument 500 /candidates.html
+ErrorDocument 400 /candidatos.html
+ErrorDocument 401 /candidatos.html
+ErrorDocument 403 /candidatos.html
+ErrorDocument 404 /candidatos.html
+ErrorDocument 500 /candidatos.html
