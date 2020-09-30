@@ -201,3 +201,12 @@ a {
 .btn {
   -webkit-appearance: button-bevel !important;
 }
+
+.legend-text {
+  font-size: 10px;
+}
+
+.legend-bg {
+  margin: 2px;
+  padding: 8px;
+}
